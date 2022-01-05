@@ -3,11 +3,15 @@ import React from "react";
 import { Blog, Features, Footer, Header, Possibility, Whatzp } from './containers';
 import { Zp, Brand, Navbar } from './components';
 
+import './App.css';
+
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
       <Brand />
       <Whatzp />
       <Features />
